@@ -153,7 +153,7 @@ store-rating-app/
 
 ### Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/store-rating-app.git
+git clone https://github.com/MaheshShendkar/store-rating-app.git
 
 cd store-rating-app
 
