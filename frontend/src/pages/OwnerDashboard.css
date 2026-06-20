@@ -1,0 +1,151 @@
+.owner-container {
+  padding: 30px;
+  min-height: calc(100vh - 70px);
+  background: #f8fafc;
+}
+
+.owner-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.owner-cards {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+  margin-bottom: 35px;
+}
+
+.owner-card {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow:
+    0 4px 12px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+
+  transition: 0.3s;
+}
+
+.owner-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 8px 20px rgba(
+      0,
+      0,
+      0,
+      0.12
+    );
+}
+
+.owner-card h3 {
+
+  color: #64748b;
+
+  margin-bottom: 12px;
+}
+
+.owner-card p {
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+  color: #2563eb;
+
+  margin: 0;
+}
+
+.ratings-section {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 4px 12px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+}
+
+.ratings-section h2 {
+
+  margin-bottom: 20px;
+
+  color: #0f172a;
+}
+
+.ratings-table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.ratings-table th {
+
+  background: #2563eb;
+
+  color: white;
+
+  padding: 12px;
+
+  text-align: left;
+}
+
+.ratings-table td {
+
+  padding: 12px;
+
+  border-bottom:
+    1px solid #e2e8f0;
+}
+
+.ratings-table tr:hover {
+
+  background: #f8fafc;
+}
+
+.no-data {
+
+  text-align: center;
+
+  padding: 20px;
+
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+
+  .owner-container {
+    padding: 20px;
+  }
+
+  .owner-title {
+    text-align: center;
+  }
+
+}

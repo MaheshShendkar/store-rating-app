@@ -1,0 +1,57 @@
+.custom-navbar {
+  background: linear-gradient(
+    90deg,
+    #0f172a,
+    #1e293b
+  );
+
+  padding: 12px 20px;
+
+  box-shadow:
+    0 2px 15px rgba(
+      0,
+      0,
+      0,
+      0.15
+    );
+}
+
+.brand-logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: white !important;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+  margin-right: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.nav-link.active {
+  color: #38bdf8 !important;
+  font-weight: 600;
+}
+
+.role-badge {
+  font-size: 13px;
+  padding: 8px 12px;
+}
+
+.welcome-text {
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+
+  .welcome-text {
+    margin-top: 10px;
+  }
+
+}
